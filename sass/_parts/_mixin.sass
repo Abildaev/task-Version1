@@ -1,0 +1,27 @@
+@function rem($px)
+  @return $px / 16px + 0rem
+
+@function p($px)
+  @return $px / 1140px * 100%
+
+
+
+=media
+  @media screen and (min-width: $screenSize)
+    @content
+
+=phone
+  @media screen and (min-width: $phone)
+    @content
+
+=tablet
+  @media screen and (min-width: $tablet)
+    @content
+
+=laptop
+  @media screen and (min-width: $laptop)
+    @content
+
+=desktop
+  @media screen and (min-width: $desktop)
+    @content

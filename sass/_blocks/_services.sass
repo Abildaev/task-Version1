@@ -1,0 +1,58 @@
+.services
+  padding: rem(100px) 0
+
+  &__group
+    margin-top: rem(80px)
+    text-align: center
+    +phone
+      display: flex
+      flex-wrap: wrap
+
+
+  &__element
+    text-align: left
+    padding: rem(35px) rem(30px)
+    box-sizing: border-box
+    margin: rem(70px) auto 0
+    box-shadow: 0 0 rem(10px) rem(1px) #ccc
+    width: rem(270px)
+    height: rem(270px)
+
+  &__title
+    margin-top: rem(20px)
+    font-size: rem(20px)
+    font-weight: 600
+
+  &__subtitle
+    margin-top: rem(25px)
+    color: #A0A0A0
+
+  &__element:first-child
+    margin-top: 0
+
+  &__element:nth-child(3)
+    margin-top: rem(70px)
+    +phone
+      margin-top: 0
+
+
+  &__wrap
+    width: rem(55px)
+    height: rem(55px)
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+
+    &_orange
+      background: #FCB0A5
+
+    &_violet
+      background: #B474F7
+
+    &_green
+      background: #34e6c2
+
+    &_pink
+      background: #FCB0A5
+
